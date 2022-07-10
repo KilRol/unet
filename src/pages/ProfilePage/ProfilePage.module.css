@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 1s;
+  width: 100%;
+}
+
+.profileEdit > h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.profileEdit {
+  padding: 1em;
+}

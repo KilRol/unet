@@ -1,0 +1,68 @@
+.friendsList {
+  width: 100%;
+  max-width: 600px;
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #eee;
+  text-align: left;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+}
+
+.button {
+  width: 90px;
+}
+
+.cardUser {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1em;
+}
+
+.userInfo {
+  padding: 0 0 0 1em;
+  display: flex;
+  align-items: center;
+}
+
+.card_info {
+  padding: 0;
+  margin: 0;
+}
+
+.card_info > a, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.card_info > p {
+  padding: 0;
+  margin: 0;
+}
+
+.card_imageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.card_imageBox > img {
+  max-width: 100%;
+}
+
+.buttonArea {
+  padding: 0 1em 0 0;
+}

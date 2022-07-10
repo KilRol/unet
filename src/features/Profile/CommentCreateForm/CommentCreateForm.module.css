@@ -1,0 +1,26 @@
+.CommentForm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.CommentForm > label {
+  width: 100%;
+}
+
+.textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  resize: none;
+  border: 1px solid #7834f7;
+  outline: none;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+.commentButton {
+  border-radius: 0;
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+}

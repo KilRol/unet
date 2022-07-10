@@ -1,0 +1,70 @@
+.post {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+}
+
+.post > h3 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.postDate {
+  text-align: left;
+  color: lightslategray;
+}
+
+.postContent {
+  text-align: left;
+  padding: 1em 0;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postLikeBlock {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 0 0 1em 0;
+  font-size: 20px;
+}
+
+.postDeleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.postDeleteButton:hover {
+  background-color: darkred;
+}
+
+.likeButton {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.likeButton:hover {
+  background: none;
+}
+.likeButton:active {
+  transform: scale(0.6);
+}
+
+.postPadding {
+  margin: 0 0 1.5em 0;
+}

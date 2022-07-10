@@ -1,0 +1,25 @@
+.postCreateForm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.postCreateForm > label {
+  width: 100%;
+  display: flex;
+}
+
+.textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  resize: none;
+  border: 1px solid #7834f7;
+  outline: none;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+.makePostButton {
+  border-radius: 0;
+}

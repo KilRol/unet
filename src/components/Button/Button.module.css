@@ -1,0 +1,21 @@
+.button {
+  font-family: Montserrat, sans-serif;
+  background-color: #7834F7;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 100%;
+  border: none;
+  box-sizing: border-box;
+  transition-duration: 70ms;
+  padding: 0.5em;
+}
+
+.button:hover {
+  background-color: #4411A1;
+  transition-duration: 70ms;
+}
+
+.button:active {
+  background-color: #7834F7;
+  transition-duration: 200ms;
+}
