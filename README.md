@@ -1,1 +1,1 @@
-# Приложение - https://unet-eff25.web.app/profile
+# Приложение - https://unet-eff25.web.app/
